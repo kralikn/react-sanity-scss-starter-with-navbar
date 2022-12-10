@@ -1,0 +1,29 @@
+sanity login
+google
+kralik.norbert.developer@gmail.com
+
+npm create sanity
+use the default dataset configuration? y
+Project output path:
+
+
+https://stackoverflow.com/questions/71560371/sanity-studio-parsing-error-for-babel-preset-env
+create .babelrc file:
+    {
+      "presets": ["next/babel"],
+      "plugins": []
+    }
+
+.eslintrc file:
+    {
+      "extends": ["next/babel"]
+    }
+
+npm install --save-dev @babel/core @babel/preset-env
+
+npm run dev
+
+in browser: sanity manage
+
+delete:
+https://www.sanity.io/answers/how-can-i-delete-a-document-in-sanity-studio-p1601406783405100
